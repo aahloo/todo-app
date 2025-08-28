@@ -1,11 +1,8 @@
-//
-//  main.swift
-//  ToDo App
-//
-//  Created by Austin Ah Loo on 8/25/25.
-//
+import TodoAppCore
 
-import Foundation
+func main() {
+    let app = App(useFileSystem: true) // Change to false to use InMemoryCache
+    app.run()
+}
 
-print("Hello, World!")
-
+main() // run the command line app
