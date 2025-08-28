@@ -62,4 +62,3 @@ When you run the tests, you should see:
 - **Error handling**: Invalid inputs are handled gracefully
 - **Protocol compliance**: Cache implementations work as expected
 
-Run the tests after making any changes to ensure you haven't broken existing functionality!
